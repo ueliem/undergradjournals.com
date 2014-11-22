@@ -11,11 +11,31 @@ header nav ul {
 
 header nav ul li {
 	float: left;
-	background-color: #bbb;
+	/* background-color: #bbb;*/
 	height: 100%;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 24px;
+}
+header nav ul li.active {
+	background-color: #bbb;
+}
+
+header nav ul li a:link {
+	text-decoration: none;
+	color: #000;
+}
+header nav ul li a:visited {
+	text-decoration: none;
+	color: #000;
+}
+header nav ul li a:hover {
+	text-decoration: none;
+	color: #000;
+}
+header nav ul li a:active {
+	text-decoration: none;
+	color: #000;
 }
 
 header {
